@@ -31,9 +31,9 @@ public class Encoding {
         return true;
     }
 
-//    public boolean isInRange(){
-//        return this.shiftkey >= 1 && this.shiftkey <= 25;
-//    }
+    public boolean isInRange(){
+        return this.shiftkey >= 1 && this.shiftkey <= 25;
+    }
 
 }
 
