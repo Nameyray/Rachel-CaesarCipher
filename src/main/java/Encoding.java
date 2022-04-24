@@ -33,6 +33,7 @@ public class Encoding {
 
     public boolean isInRange(){
         return this.shiftkey >= 1 && this.shiftkey <= 25;
+
     }
 
 }
