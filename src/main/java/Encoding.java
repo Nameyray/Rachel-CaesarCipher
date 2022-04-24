@@ -20,5 +20,20 @@ public class Encoding {
     }
 
     private String encodedText;
+
+    public boolean isString(){
+        for (int i = 0; i < this.encodedText.length(); i++){
+            if (this.encodedText.charAt(i) >= '0' && this.encodedText.charAt(i) <= '5'){
+                System.out.println("Expected characters or words");
+                return false;
+            }
+        }
+        return true;
+    }
+
+//    public boolean isInRange(){
+//        return this.shiftkey >= 1 && this.shiftkey <= 25;
+//    }
+
 }
 
