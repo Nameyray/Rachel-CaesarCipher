@@ -20,4 +20,15 @@ public class Decoding {
     public void setmText(String mText) {
         this.mText = mText;
     }
+
+    public boolean isString(){
+        for (int i = 0; i < this.mText.length(); i++){
+            if (this.mText.charAt(i) >= '0' && this.mText.charAt(i) <= '5'){
+                System.out.println("Expected characters or words");
+                return false;
+            }
+        }
+        return true;
+    }
+
 }
