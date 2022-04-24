@@ -30,5 +30,9 @@ public class Decoding {
         }
         return true;
     }
+    public boolean isInRange(){
+        return this.shiftkey >= 1 && this.shiftkey <= 25;
+    }
+
 
 }
