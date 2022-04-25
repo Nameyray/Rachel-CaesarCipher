@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84796382-3cb4-4e2e-ae0a-1ca75068c9c5" name="Changes" comment="passed a test in decoding file to dicipher a character two positions behind">
+    <list default="true" id="84796382-3cb4-4e2e-ae0a-1ca75068c9c5" name="Changes" comment="passed a test in decoding file to dicipher a character twenty position behind">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Decoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decoding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Encoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Encoding.java" afterDir="false" />
@@ -61,7 +61,7 @@
     &quot;last_opened_file_path&quot;: &quot;/home/rachael/IdeaProjects/Rachel-CaesarCipher&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.DecodingTest">
+  <component name="RunManager" selected="Gradle.DecodingTest.dicipheredCharacter_returnsPlainCharacterAtMinusTwenty">
     <configuration name="DecodingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -76,6 +76,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;DecodingTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DecodingTest.dicipheredCharacter_returnsPlainCharacterAtMinusTwenty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;DecodingTest.dicipheredCharacter_returnsPlainCharacterAtMinusTwenty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -131,29 +154,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EncodingTest.encryptedCharacter_returnsCharPlusTwoPosition" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;EncodingTest.encryptedCharacter_returnsCharPlusTwoPosition&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="EncodingTest.encryptedWord_returnEncryptedWordEachLetterPlusTwoPosition" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -179,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DecodingTest.dicipheredCharacter_returnsPlainCharacterAtMinusTwenty" />
         <item itemvalue="Gradle.DecodingTest" />
         <item itemvalue="Gradle.EncodingTest.encryptedWord_returnEncryptedWordEachLetterPlusTwoPosition" />
         <item itemvalue="Gradle.EncodingTest.encryptedCharacter_returnsCharPlusTwentyPosition (1)" />
         <item itemvalue="Gradle.EncodingTest (1)" />
-        <item itemvalue="Gradle.EncodingTest.encryptedCharacter_returnsCharPlusTwoPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650858802466</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="passed a test in decoding file to dicipher a character twenty position behind">
+      <created>1650859070506</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1650859070506</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,6 +370,7 @@
     <MESSAGE value="passed a test in encoding file to add another position" />
     <MESSAGE value="passed a test in encoding file to return a word in uppercase" />
     <MESSAGE value="passed a test in decoding file to dicipher a character two positions behind" />
-    <option name="LAST_COMMIT_MESSAGE" value="passed a test in decoding file to dicipher a character two positions behind" />
+    <MESSAGE value="passed a test in decoding file to dicipher a character twenty position behind" />
+    <option name="LAST_COMMIT_MESSAGE" value="passed a test in decoding file to dicipher a character twenty position behind" />
   </component>
 </project>
