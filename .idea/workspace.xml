@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84796382-3cb4-4e2e-ae0a-1ca75068c9c5" name="Changes" comment="passed a test in decoding file to dicipher a character twenty position behind">
+    <list default="true" id="84796382-3cb4-4e2e-ae0a-1ca75068c9c5" name="Changes" comment="passed a test in decoding file to dicipher a word in uppercase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Decoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decoding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Encoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Encoding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DecodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DecodingTest.java" afterDir="false" />
@@ -61,7 +62,7 @@
     &quot;last_opened_file_path&quot;: &quot;/home/rachael/IdeaProjects/Rachel-CaesarCipher&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.DecodingTest.dicipheredCharacter_returnsPlainCharacterAtMinusTwenty">
+  <component name="RunManager" selected="Gradle.DecodingTest">
     <configuration name="DecodingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -85,6 +86,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="DecodingTest.dicipherWord_returnsOriginalWord_BOY" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;DecodingTest.dicipherWord_returnsOriginalWord_BOY&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="DecodingTest.dicipheredCharacter_returnsPlainCharacterAtMinusTwenty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -99,29 +123,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;DecodingTest.dicipheredCharacter_returnsPlainCharacterAtMinusTwenty&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="EncodingTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;EncodingTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -179,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DecodingTest.dicipheredCharacter_returnsPlainCharacterAtMinusTwenty" />
         <item itemvalue="Gradle.DecodingTest" />
+        <item itemvalue="Gradle.DecodingTest.dicipherWord_returnsOriginalWord_BOY" />
+        <item itemvalue="Gradle.DecodingTest.dicipheredCharacter_returnsPlainCharacterAtMinusTwenty" />
         <item itemvalue="Gradle.EncodingTest.encryptedWord_returnEncryptedWordEachLetterPlusTwoPosition" />
         <item itemvalue="Gradle.EncodingTest.encryptedCharacter_returnsCharPlusTwentyPosition (1)" />
-        <item itemvalue="Gradle.EncodingTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650859070506</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="passed a test in decoding file to dicipher a word in uppercase">
+      <created>1650859300212</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1650859300212</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,6 +379,7 @@
     <MESSAGE value="passed a test in encoding file to return a word in uppercase" />
     <MESSAGE value="passed a test in decoding file to dicipher a character two positions behind" />
     <MESSAGE value="passed a test in decoding file to dicipher a character twenty position behind" />
-    <option name="LAST_COMMIT_MESSAGE" value="passed a test in decoding file to dicipher a character twenty position behind" />
+    <MESSAGE value="passed a test in decoding file to dicipher a word in uppercase" />
+    <option name="LAST_COMMIT_MESSAGE" value="passed a test in decoding file to dicipher a word in uppercase" />
   </component>
 </project>
