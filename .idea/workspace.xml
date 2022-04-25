@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84796382-3cb4-4e2e-ae0a-1ca75068c9c5" name="Changes" comment="added features to input text and shift key in the App">
+    <list default="true" id="84796382-3cb4-4e2e-ae0a-1ca75068c9c5" name="Changes" comment="added features to output the encoded and decoded text inputted by the user">
+      <change afterPath="$PROJECT_DIR$/src/main/java/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Decoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decoding.java" afterDir="false" />
@@ -70,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecodingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DecodingTest.dicipherWord_returnsOriginalWord_RACHEL" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -83,7 +84,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;DecodingTest&quot;" />
+            <option value="&quot;DecodingTest.dicipherWord_returnsOriginalWord_RACHEL&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -93,7 +94,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DecodingTest.dicipherWord_returnsOriginalWord_BOY" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EncodingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -106,7 +107,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;DecodingTest.dicipherWord_returnsOriginalWord_BOY&quot;" />
+            <option value="&quot;EncodingTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -116,7 +117,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DecodingTest.dicipheredCharacter_returnsPlainCharacterAtMinusTwenty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EncodingTest.encryptedWord_returnEncryptedWordEachLetterAtPlusTwoPosition (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -129,7 +130,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;DecodingTest.dicipheredCharacter_returnsPlainCharacterAtMinusTwenty&quot;" />
+            <option value="&quot;EncodingTest.encryptedWord_returnEncryptedWordEachLetterAtPlusTwoPosition&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -139,7 +140,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EncodingTest.encryptedWord_returnEncryptedWordEachLetterPlusTwoPosition" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EncodingTest.encryptedWord_returnEncryptedWordEachLetterPlusTwelvePosition" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -152,7 +153,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;EncodingTest.encryptedWord_returnEncryptedWordEachLetterPlusTwoPosition&quot;" />
+            <option value="&quot;EncodingTest.encryptedWord_returnEncryptedWordEachLetterPlusTwelvePosition&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -165,10 +166,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
-        <item itemvalue="Gradle.DecodingTest" />
-        <item itemvalue="Gradle.DecodingTest.dicipherWord_returnsOriginalWord_BOY" />
-        <item itemvalue="Gradle.DecodingTest.dicipheredCharacter_returnsPlainCharacterAtMinusTwenty" />
-        <item itemvalue="Gradle.EncodingTest.encryptedWord_returnEncryptedWordEachLetterPlusTwoPosition" />
+        <item itemvalue="Gradle.DecodingTest.dicipherWord_returnsOriginalWord_RACHEL" />
+        <item itemvalue="Gradle.EncodingTest.encryptedWord_returnEncryptedWordEachLetterPlusTwelvePosition" />
+        <item itemvalue="Gradle.EncodingTest" />
+        <item itemvalue="Gradle.EncodingTest.encryptedWord_returnEncryptedWordEachLetterAtPlusTwoPosition (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650861420680</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added features to output the encoded and decoded text inputted by the user">
+      <created>1650862210466</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1650862210466</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,6 +380,7 @@
     <MESSAGE value="passed a test in decoding file to dicipher a character twenty position behind" />
     <MESSAGE value="passed a test in decoding file to dicipher a word in uppercase" />
     <MESSAGE value="added features to input text and shift key in the App" />
-    <option name="LAST_COMMIT_MESSAGE" value="added features to input text and shift key in the App" />
+    <MESSAGE value="added features to output the encoded and decoded text inputted by the user" />
+    <option name="LAST_COMMIT_MESSAGE" value="added features to output the encoded and decoded text inputted by the user" />
   </component>
 </project>

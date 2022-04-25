@@ -15,6 +15,17 @@ public void encryptedCharacter_returnsCharPlusTwentyPosition() {
     Character expected = 'U';
     assertEquals(expected, encoding.encryptCharacterPLusTwenty('A'));
 }
+    @Test
+    public void encryptedWord_returnEncryptedWordEachLetterAtPlusTwoPosition() {
+        Encoding encoding= new Encoding();
+        String expected ="YJA";
+        assertEquals(expected, encoding.encryptWord("WHY"));
+    }
 
-
+    @Test
+    public void encryptedWord_returnEncryptedWordEachLetterPlusTwoPosition() {
+        Encoding encoding= new Encoding();
+        String expected ="TCEJGN";
+        assertEquals(expected, encoding.encryptWord("RACHEL"));
+    }
 }

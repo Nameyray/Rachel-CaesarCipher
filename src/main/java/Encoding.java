@@ -12,6 +12,17 @@ public class Encoding {
         }
         return alphabet[position];
     }
+    public Character characterEncryption(char character) {
+        int position = Arrays.asList(alphabet).indexOf(character);
+        if (position + getMkey() >= alphabet.length) {
+            position = Math.abs(alphabet.length - position - getMkey());
+        } else {
+            position = position + getMkey();
+        }
+        return alphabet[position];
+    }
+
+
 
     public Character encryptCharacterPLusTwenty(char Character){
         int position = Arrays.asList(alphabet).indexOf(Character);
@@ -22,6 +33,15 @@ public class Encoding {
             position = position+20;
         }
         return alphabet[position];
+    }
+    public String encryptWord(String word){
+        char[] wordCharArray = word.toUpperCase().toCharArray();
+        StringBuilder encryptedWord= new StringBuilder();
+        for (char c : wordCharArray) {
+            encryptedWord.append(encryptCharacter(c));
+        }
+
+        return encryptedWord.toString();
     }
     private int mkey;
 
@@ -41,6 +61,11 @@ public class Encoding {
 
     public void setmText(String mText) {
         this.mText = mText;
+    }
+
+    public String wordEncryption(String input) {
+        String o = null;
+        return "mText";
     }
 }
 
