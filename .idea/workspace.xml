@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84796382-3cb4-4e2e-ae0a-1ca75068c9c5" name="Changes" comment="passed a test in decoding file to dicipher a word in uppercase">
+    <list default="true" id="84796382-3cb4-4e2e-ae0a-1ca75068c9c5" name="Changes" comment="added features to input text and shift key in the App">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Decoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decoding.java" afterDir="false" />
@@ -62,7 +62,14 @@
     &quot;last_opened_file_path&quot;: &quot;/home/rachael/IdeaProjects/Rachel-CaesarCipher&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.DecodingTest">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="Rachel-CaesarCipher.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DecodingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -132,29 +139,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EncodingTest.encryptedCharacter_returnsCharPlusTwentyPosition (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;EncodingTest.encryptedCharacter_returnsCharPlusTwentyPosition&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="EncodingTest.encryptedWord_returnEncryptedWordEachLetterPlusTwoPosition" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -180,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Gradle.DecodingTest" />
         <item itemvalue="Gradle.DecodingTest.dicipherWord_returnsOriginalWord_BOY" />
         <item itemvalue="Gradle.DecodingTest.dicipheredCharacter_returnsPlainCharacterAtMinusTwenty" />
         <item itemvalue="Gradle.EncodingTest.encryptedWord_returnEncryptedWordEachLetterPlusTwoPosition" />
-        <item itemvalue="Gradle.EncodingTest.encryptedCharacter_returnsCharPlusTwentyPosition (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650859300212</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added features to input text and shift key in the App">
+      <created>1650861420680</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1650861420680</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -380,6 +371,7 @@
     <MESSAGE value="passed a test in decoding file to dicipher a character two positions behind" />
     <MESSAGE value="passed a test in decoding file to dicipher a character twenty position behind" />
     <MESSAGE value="passed a test in decoding file to dicipher a word in uppercase" />
-    <option name="LAST_COMMIT_MESSAGE" value="passed a test in decoding file to dicipher a word in uppercase" />
+    <MESSAGE value="added features to input text and shift key in the App" />
+    <option name="LAST_COMMIT_MESSAGE" value="added features to input text and shift key in the App" />
   </component>
 </project>
