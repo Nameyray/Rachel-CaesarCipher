@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84796382-3cb4-4e2e-ae0a-1ca75068c9c5" name="Changes" comment="Generated the getter and setters for the main java encoding file">
+    <list default="true" id="84796382-3cb4-4e2e-ae0a-1ca75068c9c5" name="Changes" comment="generated a getter and setter for the encoding shiftKey">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Encoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Encoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EncodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EncodingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +41,42 @@
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/rachael/IdeaProjects/Rachel-CaesarCipher"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/rachael/IdeaProjects/Rachel-CaesarCipher&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="EncodingTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;EncodingTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.EncodingTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,7 +121,56 @@
       <option name="project" value="LOCAL" />
       <updated>1650827959815</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="created a method to check the alphabet letters">
+      <created>1650829619727</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650829619728</updated>
+    </task>
+    <task id="LOCAL-00007" summary="created a method to check the shift key numbers to be between 0 and 25">
+      <created>1650829672225</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650829672225</updated>
+    </task>
+    <task id="LOCAL-00008" summary="created a method to check the text length">
+      <created>1650829805828</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650829805828</updated>
+    </task>
+    <task id="LOCAL-00009" summary="created a method to check the shift key length to be between 0 and 25">
+      <created>1650829887774</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650829887774</updated>
+    </task>
+    <task id="LOCAL-00010" summary="defined the private properties for the ecoding test">
+      <created>1650830239901</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650830239901</updated>
+    </task>
+    <task id="LOCAL-00011" summary="generated a getter and setter for the encoding test file">
+      <created>1650830680965</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650830680965</updated>
+    </task>
+    <task id="LOCAL-00012" summary="generated a getter and setter for the encoding shiftKey">
+      <created>1650830789272</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650830789272</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +190,13 @@
     <MESSAGE value="Defined the alphabet characters on the main encoding and decoding file" />
     <MESSAGE value="Defined the private properties to be used in the app" />
     <MESSAGE value="Generated the getter and setters for the main java encoding file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generated the getter and setters for the main java encoding file" />
+    <MESSAGE value="created a method to check the alphabet letters" />
+    <MESSAGE value="created a method to check the shift key numbers to be between 0 and 25" />
+    <MESSAGE value="created a method to check the text length" />
+    <MESSAGE value="created a method to check the shift key length to be between 0 and 25" />
+    <MESSAGE value="defined the private properties for the ecoding test" />
+    <MESSAGE value="generated a getter and setter for the encoding test file" />
+    <MESSAGE value="generated a getter and setter for the encoding shiftKey" />
+    <option name="LAST_COMMIT_MESSAGE" value="generated a getter and setter for the encoding shiftKey" />
   </component>
 </project>

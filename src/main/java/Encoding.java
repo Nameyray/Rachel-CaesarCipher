@@ -11,6 +11,7 @@ public class Encoding {
         this.shiftkey = shiftkey;
     }
 
+    private String encodedText;
     public String getEncodedText() {
         return encodedText;
     }
@@ -19,7 +20,6 @@ public class Encoding {
         this.encodedText = encodedText;
     }
 
-    private String encodedText;
 
     public boolean isString(){
         for (int i = 0; i < this.encodedText.length(); i++){
@@ -30,11 +30,24 @@ public class Encoding {
         }
         return true;
     }
-
-    public boolean isInRange(){
+    public Object isInRange(){
         return this.shiftkey >= 1 && this.shiftkey <= 25;
 
     }
+    public String forward;
+    private final int i = 0;
 
-}
+    {
+        char[] newCharText = encodedText.toCharArray();
+        for (int i = 0; i < newCharText.length; i++) {
+
+            if (Character.isUpperCase(newCharText[i])) {
+                int castText = ((int) newCharText[i] - 65 + this.shiftkey) % 26 + 65;
+                newCharText[i] = (char) castText;
+            }
+
+
+        }
+    }
+    }
 
