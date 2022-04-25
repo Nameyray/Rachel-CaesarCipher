@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84796382-3cb4-4e2e-ae0a-1ca75068c9c5" name="Changes" comment="added features to output the encoded and decoded text inputted by the user">
-      <change afterPath="$PROJECT_DIR$/src/main/java/README.md" afterDir="false" />
+    <list default="true" id="84796382-3cb4-4e2e-ae0a-1ca75068c9c5" name="Changes" comment="updated the App java file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Decoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decoding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Encoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Encoding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DecodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DecodingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EncodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EncodingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650862210466</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="updated the App java file">
+      <created>1650887022721</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1650887022721</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,6 +383,7 @@
     <MESSAGE value="passed a test in decoding file to dicipher a word in uppercase" />
     <MESSAGE value="added features to input text and shift key in the App" />
     <MESSAGE value="added features to output the encoded and decoded text inputted by the user" />
-    <option name="LAST_COMMIT_MESSAGE" value="added features to output the encoded and decoded text inputted by the user" />
+    <MESSAGE value="updated the App java file" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the App java file" />
   </component>
 </project>
